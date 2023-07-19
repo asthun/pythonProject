@@ -6,7 +6,7 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 browser = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-browser.get('https://suninjuly.github.io/xpath_examples')
+#browser.get('https://suninjuly.github.io/xpath_examples')
 
 def test_open():
     browser.get('https://suninjuly.github.io/cats.html')
